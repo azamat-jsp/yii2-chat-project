@@ -12,11 +12,11 @@ $this->title = 'Посты';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="posts-index">
-
+    <?php if(!Yii::$app->request->get('status')): ?>
     <p>
         <?= Html::a('Создать', ['create'], ['class' => 'btn btn-success']) ?>
     </p>
-
+    <?php endif; ?>
     <?php // echo $this->render('_search', ['model' => $searchModel]); ?>
     <div class="container">
     <?= GridView::widget([
