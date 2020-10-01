@@ -1,5 +1,5 @@
 <h2>INSTALL</h2>
-<h3>.\Yii migrate</h3
+<h3>.\Yii migrate</h3>
 <h3>.\Yii rbac/init</h3>
 
 
